@@ -199,10 +199,10 @@
     this.numMoves = 0;
 
     this.gameMetaHTML = '<div class="mg__meta--left">\
-      <span class="mg__meta--level">Level: \
+      <span class="mg__meta--level">Nivel: \
       <span id="mg__meta--level">' + this.chosenLevel + '</span>\
       </span>\
-      <span class="mg__meta--moves">Moves: \
+      <span class="mg__meta--moves">Movimientos: \
       <span id="mg__meta--moves">' + this.numMoves + '</span>\
       </span>\
       </div>\
@@ -214,11 +214,11 @@
 
     this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to the Memory Game!</h2>\
       <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
-      <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
+      <h3 class="mg__start-screen--sub-heading">Select Nivel</h3>\
       <ul class="mg__start-screen--level-select">\
-      <li><span data-level="1">Level 1 - Easy (4 x 2)</span></li>\
-      <li><span data-level="2">Level 2 - Medium (6 x 3)</span></li>\
-      <li><span data-level="3">Level 3 - Hard (8 x 4)</span></li>\
+      <li><span data-level="1">Nivel 1 - Easy (4 x 2)</span></li>\
+      <li><span data-level="2">Nivel 2 - Medium (6 x 3)</span></li>\
+      <li><span data-level="3">Nivel 3 - Hard (8 x 4)</span></li>\
       </ul>';
     this.gameStartScreen.innerHTML = this.gameStartScreenHTML;
     this.game.appendChild(this.gameStartScreen);
